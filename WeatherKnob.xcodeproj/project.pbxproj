@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4F13EE251FF8232700FE7904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F13EE241FF8232700FE7904 /* AppDelegate.swift */; };
-		4F13EE271FF8232700FE7904 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F13EE261FF8232700FE7904 /* GameScene.sks */; };
 		4F13EE291FF8232700FE7904 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F13EE281FF8232700FE7904 /* Actions.sks */; };
 		4F13EE2B1FF8232700FE7904 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F13EE2A1FF8232700FE7904 /* GameScene.swift */; };
 		4F13EE2D1FF8232700FE7904 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F13EE2C1FF8232700FE7904 /* GameViewController.swift */; };
@@ -17,6 +16,8 @@
 		4F13EE351FF8232700FE7904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F13EE331FF8232700FE7904 /* LaunchScreen.storyboard */; };
 		4F13EE401FF8232700FE7904 /* WeatherKnobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F13EE3F1FF8232700FE7904 /* WeatherKnobTests.swift */; };
 		4F13EE4B1FF8232700FE7904 /* WeatherKnobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F13EE4A1FF8232700FE7904 /* WeatherKnobUITests.swift */; };
+		4F13EE5D1FF8298100FE7904 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F13EE5C1FF8298100FE7904 /* Knob.swift */; };
+		4F13EE5F1FF8347E00FE7904 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F13EE5E1FF8347E00FE7904 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 /* Begin PBXFileReference section */
 		4F13EE211FF8232700FE7904 /* WeatherKnob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherKnob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F13EE241FF8232700FE7904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F13EE261FF8232700FE7904 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		4F13EE281FF8232700FE7904 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		4F13EE2A1FF8232700FE7904 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4F13EE2C1FF8232700FE7904 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		4F13EE461FF8232700FE7904 /* WeatherKnobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherKnobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F13EE4A1FF8232700FE7904 /* WeatherKnobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherKnobUITests.swift; sourceTree = "<group>"; };
 		4F13EE4C1FF8232700FE7904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F13EE5C1FF8298100FE7904 /* Knob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
+		4F13EE5E1FF8347E00FE7904 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				4F13EE241FF8232700FE7904 /* AppDelegate.swift */,
-				4F13EE261FF8232700FE7904 /* GameScene.sks */,
+				4F13EE5C1FF8298100FE7904 /* Knob.swift */,
 				4F13EE281FF8232700FE7904 /* Actions.sks */,
+				4F13EE5E1FF8347E00FE7904 /* GameScene.sks */,
 				4F13EE2A1FF8232700FE7904 /* GameScene.swift */,
 				4F13EE2C1FF8232700FE7904 /* GameViewController.swift */,
 				4F13EE2E1FF8232700FE7904 /* Main.storyboard */,
@@ -242,7 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F13EE301FF8232700FE7904 /* Main.storyboard in Resources */,
-				4F13EE271FF8232700FE7904 /* GameScene.sks in Resources */,
+				4F13EE5F1FF8347E00FE7904 /* GameScene.sks in Resources */,
 				4F13EE321FF8232700FE7904 /* Assets.xcassets in Resources */,
 				4F13EE351FF8232700FE7904 /* LaunchScreen.storyboard in Resources */,
 				4F13EE291FF8232700FE7904 /* Actions.sks in Resources */,
@@ -273,6 +276,7 @@
 				4F13EE2B1FF8232700FE7904 /* GameScene.swift in Sources */,
 				4F13EE2D1FF8232700FE7904 /* GameViewController.swift in Sources */,
 				4F13EE251FF8232700FE7904 /* AppDelegate.swift in Sources */,
+				4F13EE5D1FF8298100FE7904 /* Knob.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,8 +445,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLFS2H9MA4;
 				INFOPLIST_FILE = WeatherKnob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ordrstudio.WeatherKnob;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ordrstudio.SeasonKnob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,8 +461,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLFS2H9MA4;
 				INFOPLIST_FILE = WeatherKnob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ordrstudio.WeatherKnob;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ordrstudio.SeasonKnob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
